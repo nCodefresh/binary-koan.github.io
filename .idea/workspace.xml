@@ -1,7 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297e90cf-a3e5-4e52-b668-c757a1f7bc9c" name="Default" comment="" />
+    <list default="true" id="297e90cf-a3e5-4e52-b668-c757a1f7bc9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/2014_11_23_lightning-fast-update/cover.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\about.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\about\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\about\me.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\footer-design.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\homepage\about-me.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\homepage\blog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\homepage\projects.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\index-background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\myself.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\projects\churchsite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\projects\envirotown.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\projects\mahara.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\assets\subpage-background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\03\31\this-is-japan.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\03\31\this-is-japan\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\03\31\this-is-japan\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\03\31\this-is-japan\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\03\31\this-is-japan\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\03\lights-and-flowerbeds\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\10\where-i-live\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\13\hanami-shiyou\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\14.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\15.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\16.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\18.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\19.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\20.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\21.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\22.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\22\photo-stories-1\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\29\orientation-and-classes.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\29\orientation-and-classes\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\29\orientation-and-classes\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\04\29\orientation-and-classes\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\14.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\15.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\16.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\18.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\19.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\20.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\21.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\22.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\23.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\24.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\25.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\26.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\05\18\photo-stories-2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\06\09\aikido-and-a-taikai.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\06\09\aikido-and-a-taikai\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\06\09\aikido-and-a-taikai\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\06\09\aikido-and-a-taikai\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\06\09\aikido-and-a-taikai\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\07\14\so-whats-been-happening\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\08\22\tokyo-disney-resort\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\14.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\15.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\16.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\18.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\19.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\20.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\21.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\22.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\12\photo-stories-3\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\14.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\09\26\aikido-summer-camp\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\14.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\15.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\16.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\18.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\19.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\10\07\photo-stories-4\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\11\23\lightning-fast-update\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\12\10\daigakusai.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\12\10\daigakusai\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\12\10\daigakusai\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\12\10\daigakusai\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\12\10\daigakusai\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2014\12\10\daigakusai\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\29\photo-stories-5\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\01\30\okinawa\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\10.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\14.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\15.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\16.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\6.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\cover.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\2015\02\24\north-of-the-wall\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\blog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\css\main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\index.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\js\main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\projects.fragment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\projects\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\main.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\mixins\flexbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\pages\about.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\pages\blog.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\pages\blogpost.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\pages\index.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\pages\projects.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\build\site\css\reset.less" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="site2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -15,7 +311,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/site2@medium_to_md.coverage" NAME="medium-to-md Coverage Results" MODIFIED="1431523092420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site2" />
-    <SUITE FILE_PATH="coverage/site2@Server.coverage" NAME="Server Coverage Results" MODIFIED="1431524164158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site2" />
+    <SUITE FILE_PATH="coverage/site2@Server.coverage" NAME="Server Coverage Results" MODIFIED="1431524915643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="site2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,33 +322,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="templates.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/templates.rb">
+      <file leaf-file-name="2015_01_30_okinawa.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/2015_01_30_okinawa.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6706282">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.724138">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/pages/blog.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/blog.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.333333">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/css/main.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.031858407">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,13 +357,12 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/subpage.html" />
-        <option value="$PROJECT_DIR$/site/about.html" />
-        <option value="$PROJECT_DIR$/site/css/pages/projects.less" />
-        <option value="$PROJECT_DIR$/site/projects.html" />
         <option value="$PROJECT_DIR$/blog/2015_02_23_north-of-the-wall.md" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/site/css/reset.less" />
@@ -75,7 +371,6 @@
         <option value="$PROJECT_DIR$/build/css/main.css" />
         <option value="$PROJECT_DIR$/blog/2015_04_03_lights-and-flowerbeds.md" />
         <option value="$PROJECT_DIR$/site/blog.html" />
-        <option value="$PROJECT_DIR$/site/css/pages/blog.less" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$USER_HOME$/Downloads/medium-export/A-city-of-lights-and-flowerbeds-3d22640d5bdb.html" />
         <option value="$PROJECT_DIR$/blog/2014_03_31_this-is-japan.md" />
@@ -100,6 +395,25 @@
         <option value="$PROJECT_DIR$/site/css/main.less" />
         <option value="$PROJECT_DIR$/medium-to-md.rb" />
         <option value="$PROJECT_DIR$/templates/templates.rb" />
+        <option value="$PROJECT_DIR$/blog/2014_04_03_lights-and-flowerbeds.md" />
+        <option value="$PROJECT_DIR$/blog/2014_04_10_where-i-live.md" />
+        <option value="$PROJECT_DIR$/blog/2014_04_13_hanami-shiyou.md" />
+        <option value="$PROJECT_DIR$/blog/2014_04_22_photo-stories-1.md" />
+        <option value="$PROJECT_DIR$/blog/2014_04_29_orientation-and-classes.md" />
+        <option value="$PROJECT_DIR$/blog/2014_06_09_aikido-and-a-taikai.md" />
+        <option value="$PROJECT_DIR$/blog/2014_05_18_photo-stories-2.md" />
+        <option value="$PROJECT_DIR$/blog/2014_07_14_so-whats-been-happening.md" />
+        <option value="$PROJECT_DIR$/blog/2014_08_22_tokyo-disney-resort.md" />
+        <option value="$PROJECT_DIR$/blog/2014_09_12_photo-stories-3.md" />
+        <option value="$PROJECT_DIR$/blog/2014_09_26_aikido-summer-camp.md" />
+        <option value="$PROJECT_DIR$/blog/2014_10_07_photo-stories-4.md" />
+        <option value="$PROJECT_DIR$/blog/2014_11_23_lightning-fast-update.md" />
+        <option value="$PROJECT_DIR$/blog/2014_12_10_daigakusai.md" />
+        <option value="$PROJECT_DIR$/blog/2015_01_29_photo-stories-5.md" />
+        <option value="$PROJECT_DIR$/blog/2015_02_24_north-of-the-wall.md" />
+        <option value="$PROJECT_DIR$/blog/2015_01_30_okinawa.md" />
+        <option value="$PROJECT_DIR$/site/css/pages/blog.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -123,7 +437,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -239,20 +553,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -267,6 +567,11 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\reaso_000\OneDrive\Projects\Websites\Personal\site2\blog\2014_11_23_lightning-fast-update" />
+    </key>
   </component>
   <component name="RunManager" selected="Rake.Server">
     <configuration default="false" name="medium-to-md" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -437,6 +742,19 @@
       <option name="number" value="Default" />
       <updated>1431492070555</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixing errors with Medium import">
+      <created>1431524961014</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1431524961014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add space between blog posts">
+      <created>1431524977427</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1431524977427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -450,8 +768,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -460,14 +779,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330076" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -483,6 +801,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing errors with Medium import" />
+    <MESSAGE value="Add space between blog posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add space between blog posts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -635,14 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/pages/blog.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7366548">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -662,32 +977,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/2014_03_31_this-is-japan.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23035714">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36502546">
           <caret line="99" column="7" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,18 +993,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/main.less">
+    <entry file="file://$PROJECT_DIR$/site/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.7353464">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/templates.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6706282">
+        <state vertical-scroll-proportion="0.6694915">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28774422">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_03_31_this-is-japan.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6096257">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_04_03_lights-and-flowerbeds.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_04_13_hanami-shiyou.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19251336">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_04_10_where-i-live.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_04_22_photo-stories-1.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_04_29_orientation-and-classes.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_06_09_aikido-and-a-taikai.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1034484">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_05_18_photo-stories-2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1034484">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2015_02_24_north-of-the-wall.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19251336">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2015_01_29_photo-stories-5.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_12_10_daigakusai.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_11_23_lightning-fast-update.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19251336">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_10_07_photo-stories-4.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_09_26_aikido-summer-camp.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_09_12_photo-stories-3.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_08_22_tokyo-disney-resort.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2014_07_14_so-whats-been-happening.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16042781">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/2015_01_30_okinawa.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.724138">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/pages/blog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031858407">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
