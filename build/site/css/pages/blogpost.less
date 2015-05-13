@@ -1,0 +1,65 @@
+section.blogpost.header {
+  position: relative;
+  margin-bottom: 0.5rem;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: center, center !important;
+  background-size: auto, 100% auto !important;
+
+  nav {
+    > a {
+      color: white;
+
+      > span {
+        color: white;
+      }
+
+      &:after {
+        padding-left: 0.75rem;
+        content: '\203A';
+        text-decoration: none;
+      }
+
+      &:first-child {
+        background: @white-bg;
+        &:after {
+          display: none;
+        }
+        > span {
+          color: @grey;
+        }
+      }
+    }
+    > .controls > span {
+      color: white;
+    }
+  }
+
+  h1 {
+    margin-top: 20rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+  }
+
+  p.subtitle {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: @grey-light;
+    text-align: center;
+  }
+}
+
+section.blogpost.page {
+  width: 45rem;
+  padding-left: 50%;
+  margin-left: -22.5rem;
+
+  span.caption {
+    display: block;
+    margin-top: 0.25rem;
+    color: @grey;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: center;
+  }
+}

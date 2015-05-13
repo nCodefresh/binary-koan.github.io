@@ -1,0 +1,36 @@
+{% assign transparent_black = 'linear-gradient(to bottom, rgba(0,0,0,.5) 0%, rgba(0,0,0,.7) 100%)' %}
+
+<section class="blogpost header" style="background: {{ transparent_black }}, url({{ attrs.cover }})">
+  <nav>
+    <a href="/"><span>home</span></a>
+    <a href="/blog"><span>blog</span></a>
+
+    <div class="controls">
+      <span>{{ attrs.date | date: '%-d %b %Y' }}</span>
+      <!--<button type="button">Share ...</button>-->
+    </div>
+  </nav>
+
+  <div class="headings">
+    <h1>{{ attrs.title }}</h1>
+    <p class="subtitle">{{ attrs.subtitle }}</p>
+  </div>
+</section>
+
+<section class="blogpost page">
+  {== content ==}
+</section>
+
+<div class='spacer'></div>
+
+<footer>
+  <hr />
+  <span><a href="/" title="Homepage">Jono Mingard</a> &mdash; coder and designer</span>
+  <span class='separator'></span>
+  <ul>
+    <li><a href="mailto:reason.koan@gmail.com" title="reason.koan@gmail.com">Email</a></li>
+    <li><a href="https://twitter.com/@binary_koan" title="@binary_koan">Twitter</a></li>
+    <li><a href="https://github.com/binary-koan">Github</a></li>
+    <li><a href="https://www.openhub.net/accounts/koan">Openhub</a></li>
+  </ul>
+</footer>

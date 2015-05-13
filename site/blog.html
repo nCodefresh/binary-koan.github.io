@@ -1,0 +1,23 @@
+---
+title: Blog
+template: subpage
+---
+
+<ul class="articles">
+{% for article in global.blog_articles %}
+  <li>
+    <a class="image" href="{{ article.url }}" style="background-image: url({{ article.url }}/{{ article.cover }})"></a>
+    <div class="description">
+      <h1><a href="{{ article.url }}">{{ article.title }}</a></h1>
+      <p class="subtitle">{{ article.subtitle }}</p>
+    </div>
+    <div class="info">
+      <p>{{ article.date | date: '%-d %b %Y' }}</p>
+      {% if article.category %}
+        <!-- <p class="category"><a href="/blog/{{ article.category }}">{{ article.category }}</a></p> -->
+        <p class="category"><span>{{ article.category }}</span></p>
+      {% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>
