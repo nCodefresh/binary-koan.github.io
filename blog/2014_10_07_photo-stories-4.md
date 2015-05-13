@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Photo stories 4
-
 After my mixed experience in Kyoto, I was curious how the next part of my holiday would work out:
 Spending a week travelling around Hiroshima (one of the best known places in Japan) and Shimane
 (ranked bottom in tourist popularity last year) with my girlfriend Jackie. 

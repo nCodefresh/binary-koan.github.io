@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## North of the Wall
-
 OK, so Hokkaido (the northernmost of Japan’s major islands) isn’t actually north of a wall. But it
 does look surprisingly similar to some of the frozen landscapes of Game of Thrones. 
 

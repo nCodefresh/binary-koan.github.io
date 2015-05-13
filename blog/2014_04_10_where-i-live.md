@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## An end to the “A ___ of ___ and ___” posts
-
 Well, I said last week I’d write more about where I’m living so I’m sorry it’s taken so long. I also
 received complaints from certain pedantic people that there were no pictures of flowerbeds in my
 last post, so I’ve given up on the “A __ of __ and __” titles for now since they would just have

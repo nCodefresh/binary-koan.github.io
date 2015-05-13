@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Lightning-fast update
-
 Well, my courses have been going on for quite a few weeks now and my homework has been steadily
 increasing, so this’ll be quite a short update on what I’ve been up to recently. Also, I have
 something more interesting to tell of in an upcoming post. 

@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Photo stories 2
-
 In Japan, public holidays are essential and numerous. Compared to New Zealand, it seems people take
 their work way too seriously; although Japanese people are allowed to take paid holidays, people who
 don’t tend to get promoted faster and get on better with their colleagues (who won’t have to take up

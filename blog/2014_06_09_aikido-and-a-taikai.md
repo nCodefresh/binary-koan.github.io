@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Aikido and a Taikai
-
 At New Zealand universities, clubs are pretty much something you join on a whim and occasionally
 think about going to. At Japanese universities they play a much bigger role. However, before I get
 started on this (probably lengthy) article I need to define the two sorts of clubs that you find

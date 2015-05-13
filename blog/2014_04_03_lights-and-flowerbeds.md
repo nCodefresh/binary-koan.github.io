@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## A city of lights and flowerbeds
-
 I’d like to start by explaining a couple of things I glossed over in my previous post. Firstly, when
 I said Aiko ended up showing me around Tokyo, I actually meant Akihabara, the district I’ve wanted
 to go ever since hearing about it in Year 9 Japanese. It’s a place geared specifically towards anime

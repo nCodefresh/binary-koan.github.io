@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Photo stories 5
-
 ### Hanayashiki
 
 Partway through the final term, Gakushuin’s clubs (or the Aikido club anyway) have some sort of

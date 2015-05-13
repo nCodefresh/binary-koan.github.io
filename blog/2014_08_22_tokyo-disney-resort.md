@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Tokyo Disney Resort
-
 You know how I talked about the horrible weather at the end of my last post? Well, there were a few
 exceptions to that and (amazingly) one of them coincided with a weekday during term time when my
 girlfriend and I were both free. So we went to Tokyo Disneyland. 

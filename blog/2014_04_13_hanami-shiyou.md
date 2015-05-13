@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Hanami shiyou!
-
 It is an ancient and honourable Japanese tradition to drink sake while sitting under blossoming
 cherry trees. This is known as hanami and it’s a fun and relaxing way to spend an afternoon. I was
 lucky enough to arrive in cherry blossom season, and a Japanese friend I met over summer was kind

@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## So, what’s been happening?
-
 Well, it’s nearly the end of my first semester here. I’ve been a lot busier with study and Aikido
 recently so I haven’t had time to do as much interesting stuff as before. So this is going to be a
 catch-up post, a “best bits” reel of the past five weeks in preparation for the season finale,

@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Photo stories 1
-
 The macro shots in my previous post came from a day in Shinjuku Gyoen. My Japanese teacher
 recommended it and as soon as I mentioned it to one of my new friends she organised a trip there. Or
 maybe it was planned already since it turned out to be the birthday party of another (new) friend.

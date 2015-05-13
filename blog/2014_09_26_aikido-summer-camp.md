@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Aikido Summer Camp
-
 It’s traditional for Japanese clubs to have one or more camps during the year where all the club
 members go away somewhere and spend a few days focusing on club activities. 
 

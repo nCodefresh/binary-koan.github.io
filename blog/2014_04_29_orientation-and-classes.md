@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Orientation and classes
-
 I’ve now had over two weeks of classes so I figured it’s past time I let you know what I’m doing.
 Orientation and lectures aren’t exactly the most interesting things that have happened here (which
 is why I’ve put off writing about it for so long) but anyway, here goes. 

@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Photo stories 3
-
 Gakushuin’s summer holiday is drawing to a close, and I’ve been off travelling for quite a lot of
 it. Kyoto isn’t the first place I went, but it’s the place it’ll be easiest to write about, so here
 goes. 

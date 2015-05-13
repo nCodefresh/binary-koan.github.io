@@ -5,8 +5,6 @@ category: travel
 cover: cover.jpeg
 ---
 
-## Daigakusai
-
 Delayed as usual, this is the “interesting event” that I talked about in my last post. It’s a
 tradition I was quite surprised by, although I’d be interested to know whether it exists in America
 or any other Western countries … 
