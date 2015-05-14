@@ -14,5 +14,3 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # less (tested with 2.2.0)
 #
 # ... installed using "npm install webpack less -g"
-
-gem 'nokogiri'
