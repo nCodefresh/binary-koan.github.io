@@ -2,18 +2,22 @@ require 'liquid'
 require 'kramdown'
 require 'htmlbeautifier'
 
-require './util/common'
+require_relative '../../common'
 
-module Templates
+class TemplateRenderer
   #
   # Global variables available to templates - blog helpers and so forth
   #
 
-  @globals = { 'blog_articles' => [] }
+  def initialize
+    @template_globals = { 'blog_articles' => [] }
+  end
 
   #
   # Basic templates
   #
+
+  TEMPLATES_DIR = File.dirname(__FILE__)
 
   PAGE_FRAGMENT = <<-END
     <article id="{{ pageid }}" class="current" data-title="{{ attrs.page_title }}">
@@ -26,8 +30,8 @@ module Templates
     <html lang="en">
       <head>
         <title>{{ attrs.page_title }}</title>
-        <link rel='stylesheet' type='text/css' href='/css/main.css' />
-        <script type='text/javascript' src='/js/main.js'></script>
+        <link rel='stylesheet' type='text/css' href='/styles/main.css' />
+        <script type='text/javascript' src='/scripts/main.js'></script>
       </head>
       <body>
         #{PAGE_FRAGMENT}
@@ -39,14 +43,14 @@ module Templates
   # Rendering
   #
 
-  def self.render_page(base_path, page_path)
+  def render_page(base_path, page_path)
     pageid = Common.pageid_for page_path
     path = File.join base_path, page_path
 
     content, attrs = read_file path
     attrs['pageid'] = pageid
     if attrs['template']
-      File.open 'templates/' + attrs['template'] + '.html', 'r' do |f|
+      File.open "#{TEMPLATES_DIR}/#{attrs['template']}.html", 'r' do |f|
         content = f.read.sub /\{==\s*content\s*==\}/, content
       end
     end
@@ -57,7 +61,7 @@ module Templates
     return static, fragment
   end
 
-  def self.render_article(base_path, article_path)
+  def render_article(base_path, article_path)
     pageid = Common.pageid_for article_path
     path = File.join base_path, article_path
 
@@ -66,8 +70,8 @@ module Templates
     attrs['pageid'] = pageid
     content = Kramdown::Document.new(md).to_html
     add_image_captions! content
-    File.open 'templates/blogpost.html', 'r' do |f|
-        content = f.read.sub /\{==\s*content\s*==\}/, content
+    File.open "#{TEMPLATES_DIR}/blogpost.html", 'r' do |f|
+        content = f.read.split(/\{\{\s*content\s*\}\}/).join content
     end
 
     static = render pageid, content, attrs, PAGE_STATIC
@@ -76,14 +80,14 @@ module Templates
     url = article_path[0..-4].split('_')
     attrs['url'] = '/blog/' + url.join('/')
     attrs['content'] = content
-    @globals['blog_articles'].unshift attrs
+    @template_globals['blog_articles'].unshift attrs
 
     return static, fragment
   end
 
   private
 
-  def self.read_file(path)
+  def read_file(path)
     preface = ''
     content = ''
 
@@ -106,19 +110,19 @@ module Templates
     return content, attrs
   end
 
-  def self.render(pageid, content, attrs, template)
+  def render(pageid, content, attrs, template)
     template = Liquid::Template.parse template.sub('{== content ==}', content)
     return HtmlBeautifier.beautify template.render(
-      'pageid' => pageid, 'attrs' => attrs, 'global' => @globals
+      'pageid' => pageid, 'attrs' => attrs, 'global' => @template_globals
     )
   end
 
-  def self.article_date(path)
+  def article_date(path)
     parts = path.split '_'
     return Date.new parts[0].to_i, parts[1].to_i, parts[2].to_i
   end
 
-  def self.add_image_captions!(html)
+  def add_image_captions!(html)
     html.gsub! /(<img src=".+" alt="(.+)" \/>)/, '\1<span class="caption">\2</span>'
   end
 end

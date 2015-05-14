@@ -5,7 +5,7 @@ require 'fileutils'
 require 'webrick'
 require 'listen'
 
-require './templates/templates'
+require_relative 'utilities/rake/templates'
 
 #
 # Environment
@@ -31,53 +31,9 @@ rescue Errno::ENOENT
   end
 end
 
-def compile_page(base_dir, filename)
-  static_html, fragment_html = Templates.render_page base_dir, filename
-
-  # Special case for homepage
-  if filename == 'index.html'
-    static_filename = BUILD_DIR + '/index.html'
-    fragment_filename = BUILD_DIR + '/index.fragment.html'
-  else
-    base_filename = filename[0..-6] # Remove '.html'
-    FileUtils.mkdir_p BUILD_DIR + '/' + base_filename
-    static_filename = BUILD_DIR + '/' + base_filename + '/index.html'
-    fragment_filename = BUILD_DIR + '/' + base_filename + '.fragment.html'
-  end
-
-  File.write static_filename, static_html
-  File.write fragment_filename, fragment_html
-end
-
-def article_build_dir(base_dir, filename)
-  base_path = filename.split('_') # Remove '.md' and split into desired subdirs
-  build_dir = File.join BUILD_DIR, 'blog', *base_path
-  FileUtils.mkdir_p build_dir
-  build_dir
-end
-
-def compile_article(base_dir, filename)
-  static_html, fragment_html = Templates.render_article base_dir, filename
-
-  build_dir = article_build_dir base_dir, filename[0..-4]
-
-  File.write File.join(build_dir, 'index.html'), static_html
-  build_dir << '.fragment.html'
-  File.write build_dir, fragment_html
-end
-
-def copy_article_assets(base_dir, filename)
-  build_dir = article_build_dir base_dir, filename
-
-  Dir.entries(File.join(base_dir, filename)).each do |asset|
-    next if File.directory? asset
-    FileUtils.copy File.join(base_dir, filename, asset), File.join(build_dir, asset)
-  end
-end
-
 def compile_css
-  source_file = 'site/css/main.less'
-  build_file = BUILD_DIR + '/css/main.css'
+  source_file = 'assets/styles/main.less'
+  build_file = BUILD_DIR + '/styles/main.css'
   extra_args = '--source-map' if BUILD_ENV == 'debug'
 
   output = `lessc #{source_file} #{build_file} #{extra_args}`
@@ -89,11 +45,11 @@ def compile_css
 end
 
 def compile_js(mode = nil)
-  source_file = 'site/js/main.js'
-  build_file = BUILD_DIR + '/js/main.js'
+  source_file = 'assets/scripts/main.js'
+  build_file = BUILD_DIR + '/scripts/main.js'
   extra_args = '-d' if BUILD_ENV == 'debug'
 
-  source_files = Dir.glob('site/js/pages/*.js').join(' ') + ' ' + source_file
+  source_files = Dir.glob('assets/scripts/*.js').join(' ') + ' ' + source_file
 
   output = `webpack #{source_files} #{build_file} #{extra_args}`
   unless $? == 0
@@ -119,31 +75,16 @@ end
 
 task :templates do
   puts 'Compiling templates:'
+  builder = TemplatesTask.new
 
   # Blog articles
   print 'Blog articles ... '
-  base_dir = 'blog'
-
-  Dir.entries(base_dir).each do |filename|
-    if File.directory?(File.join(base_dir, filename)) and not filename =~ /\.\.?/
-      copy_article_assets base_dir, filename
-    elsif filename.end_with?('.md')
-      compile_article base_dir, filename
-    end
-  end
-
+  builder.build_articles 'articles'
   puts 'done.'
 
   # Site pages
   print 'Site pages ... '
-  base_dir = 'site'
-
-  Dir.entries(base_dir).each do |filename|
-    if filename.end_with?('.html') and not File.directory?(File.join(base_dir, filename))
-      compile_page base_dir, filename
-    end
-  end
-
+  builder.build_pages 'pages'
   puts 'done.'
   puts
 end
@@ -173,8 +114,8 @@ task :css do
   puts 'exists.'
 
   print 'Copying original files ... '
-  FileUtils.mkdir_p 'build/site'
-  FileUtils.copy_entry 'site/css', 'build/site/css'
+  FileUtils.mkdir_p 'build/assets/styles'
+  FileUtils.copy_entry 'assets/styles', 'build/assets/styles'
   puts 'done.'
 
   print 'Running lessc ... '
@@ -186,7 +127,7 @@ end
 
 task :assets do
   print 'Copying assets ... '
-  FileUtils.copy_entry 'site/assets', 'build/assets'
+  FileUtils.copy_entry 'assets/public', 'build'
   puts 'done.'
 end
 
@@ -195,8 +136,8 @@ task :watch do
 
   listener = Listen.to 'site' do |modified, added, removed|
     modified += added
-    page_regex = /\bsite\/([^\/]+\.html)/
-    asset_regex = /\bsite\/assets\/(.+)/
+    page_regex = /\bpages\/([^\/]+\.html)/
+    asset_regex = /\bassets\/public\/(.+)/
     modified.each do |e|
       if e =~ page_regex
         print "Recompiling page #{$1} ... "
@@ -225,7 +166,7 @@ task :watch do
 
   listener = Listen.to 'blog' do |modified, added, removed|
     modified += added
-    article_regex = /blog\/([^\/]+\.md)/
+    article_regex = /articles\/([^\/]+\.md)/
     modified.each do |e|
       if e =~ article_regex
         print "Recompiling article #{$1} ... "
