@@ -13,14 +13,16 @@ $config = {
   articles_path: 'articles',
   pages_path: 'pages',
   scripts: { 'assets/scripts/main.js' => 'scripts/main.js' },
-  styles: { 'assets/styles/main.less' => 'styles/main.less' },
+  styles: { 'assets/styles/main.less' => 'styles/main.css' },
   public_path: 'assets/public'
 }
 
+require_relative 'utilities/rake/npm'
 require_relative 'utilities/rake/templates'
 require_relative 'utilities/rake/assets'
 require_relative 'utilities/rake/watch'
 
+npm = NpmTask.new
 template_builder = TemplatesTask.new
 asset_builder = AssetsTask.new
 watcher = WatcherTask.new
@@ -29,9 +31,18 @@ watcher = WatcherTask.new
 # Tasks
 #
 
-task :default => %w( clean templates assets )
+task :default => %w( check_deps clean templates assets )
 task :watch => %w( default watcher )
 task :server => %w( watch webrick )
+
+task :check_deps do
+  puts 'Checking dependencies ...'
+
+  npm.check_for_npm
+  npm.check_installed 'less', 'less-plugin-clean-css', 'webpack'
+
+  puts 'done.'
+end
 
 task :clean do
   puts 'Cleaning build dir ...'
@@ -43,11 +54,9 @@ end
 task :templates do
   puts 'Compiling templates:'
 
-  # Blog articles
   puts '  Blog articles ...'
   template_builder.build_articles
 
-  # Site pages
   puts '  Site pages ...'
   template_builder.build_pages
 
