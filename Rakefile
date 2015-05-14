@@ -6,6 +6,10 @@ require 'webrick'
 require 'listen'
 
 require_relative 'utilities/rake/templates'
+require_relative 'utilities/rake/assets'
+
+template_builder = TemplatesTask.new
+asset_builder = AssetsTask.new
 
 #
 # Environment
@@ -20,54 +24,18 @@ BUILD_DIR = ENV['out'] || 'build'
 # Utility functions
 #
 
-def check_npm_command(command, package_name)
-  `#{command} --help 2>&1`
-rescue Errno::ENOENT
-  output = `npm install -g #{package_name}`
-  unless $? == 0
-    puts
-    puts output
-    raise '#{package_name} not found; tried to install but it failed.'
-  end
-end
-
 def compile_css
-  source_file = 'assets/styles/main.less'
-  build_file = BUILD_DIR + '/styles/main.css'
-  extra_args = '--source-map' if BUILD_ENV == 'debug'
-
-  output = `lessc #{source_file} #{build_file} #{extra_args}`
-  unless $? == 0
-    puts
-    puts output
-    raise 'Error while running lessc.'
-  end
-end
-
-def compile_js(mode = nil)
-  source_file = 'assets/scripts/main.js'
-  build_file = BUILD_DIR + '/scripts/main.js'
-  extra_args = '-d' if BUILD_ENV == 'debug'
-
-  source_files = Dir.glob('assets/scripts/*.js').join(' ') + ' ' + source_file
-
-  output = `webpack #{source_files} #{build_file} #{extra_args}`
-  unless $? == 0
-    puts
-    puts output
-    raise 'Error while running webpack.'
-  end
 end
 
 #
 # Tasks
 #
 
-task :default => %w{ clean templates js css assets }
+task :default => %w{ clean templates assets }
 task :server => %w{ default watch }
 
 task :clean do
-  print 'Cleaning build dir ... '
+  puts 'Cleaning build dir ...'
   FileUtils.rm_r(BUILD_DIR) if File.directory?(BUILD_DIR)
   puts 'done.'
   puts
@@ -75,59 +43,29 @@ end
 
 task :templates do
   puts 'Compiling templates:'
-  builder = TemplatesTask.new
 
   # Blog articles
-  print 'Blog articles ... '
-  builder.build_articles 'articles'
-  puts 'done.'
+  puts '  Blog articles ...'
+  template_builder.build_articles 'articles'
 
   # Site pages
-  print 'Site pages ... '
-  builder.build_pages 'pages'
-  puts 'done.'
-  puts
-end
-
-task :js do
-  puts 'Compiling JS:'
-
-  # Check webpack is installed
-  print 'Checking for webpack ... '
-  check_npm_command 'webpack', 'webpack'
-  puts 'exists.'
-
-  print 'Running webpack ... '
-
-  compile_js
+  puts '  Site pages ...'
+  template_builder.build_pages 'pages'
 
   puts 'done.'
-  puts
-end
-
-task :css do
-  puts 'Compiling CSS:'
-
-  # Check lessc is installed
-  print 'Checking for lessc ... '
-  check_npm_command 'lessc', 'less'
-  puts 'exists.'
-
-  print 'Copying original files ... '
-  FileUtils.mkdir_p 'build/assets/styles'
-  FileUtils.copy_entry 'assets/styles', 'build/assets/styles'
-  puts 'done.'
-
-  print 'Running lessc ... '
-  compile_css
-  puts 'done.'
-
   puts
 end
 
 task :assets do
-  print 'Copying assets ... '
-  FileUtils.copy_entry 'assets/public', 'build'
+  puts 'Compiling assets:'
+
+  puts '  Compiling scripts ...'
+  asset_builder.compile_scripts 'assets/scripts/main.js', "#{BUILD_DIR}/scripts/main.js"
+  puts '  Compiling stylesheets ...'
+  asset_builder.compile_styles 'assets/styles/main.less', "#{BUILD_DIR}/styles/main.css"
+  puts '  Copying assets ...'
+  asset_builder.copy_assets 'assets/public', 'build'
+  
   puts 'done.'
 end
 
