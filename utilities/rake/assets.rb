@@ -3,7 +3,7 @@ class AssetsTask
     if $config[:env] == 'debug'
       extra_args = '--source-map'
     else
-      extra_args = '--clean-css'
+      extra_args = '--autoprefix --clean-css'
     end
 
     $config[:styles].each do |source_file, build_file|

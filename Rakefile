@@ -39,7 +39,7 @@ task :check_deps do
   puts 'Checking dependencies ...'
 
   npm.check_for_npm
-  npm.check_installed 'less', 'less-plugin-clean-css', 'webpack'
+  npm.check_installed 'less', 'less-plugin-clean-css', 'less-plugin-autoprefix', 'webpack'
 
   puts 'done.'
 end
