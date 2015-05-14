@@ -12,6 +12,9 @@
 
 @text-color: @black;
 
+@base-font-family: Lato, sans-serif;
+@headings-font-family: Blackjack, sans-serif;
+
 @import 'pages/index.less';
 @import 'pages/about.less';
 @import 'pages/projects.less';
@@ -34,7 +37,7 @@ body {
 
 body, button, input, textarea {
   //TODO: Webfonts
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: @base-font-family;
   font-weight: 300;
   font-size: 1rem;
   color: @text-color;
@@ -54,7 +57,7 @@ body > article {
 }
 
 h1, h2 {
-  font-family: Blackjack, sans-serif;
+  font-family: @headings-font-family;
   font-weight: normal;
   line-height: 1;
 }
@@ -220,7 +223,7 @@ nav {
   > h1, > a {
     display: inline-block;
     margin: 0;
-    font-family: Blackjack, sans-serif;
+    font-family: @headings-font-family;
     font-size: 1.5rem;
     text-transform: lowercase;
     text-decoration: none;

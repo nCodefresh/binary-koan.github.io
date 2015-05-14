@@ -24,6 +24,8 @@ module TemplateRenderer
     <html lang="en">
       <head>
         <title>{{ attrs.page_title }}</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' type='text/css' href='/fonts/blackjack.css' />
         <link rel='stylesheet' type='text/css' href='/styles/main.css' />
         <script type='text/javascript' src='/scripts/main.js'></script>
       </head>
