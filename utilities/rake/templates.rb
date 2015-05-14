@@ -1,6 +1,6 @@
 require_relative 'templates/renderer'
 
-class TemplatesTask < TemplateRenderer
+class TemplatesTask
   def initialize
     super
   end
@@ -35,7 +35,7 @@ class TemplatesTask < TemplateRenderer
   end
 
   def build_page filename
-    compile_page filename
+    compile_page $config[:pages_path], filename
   end
 
   private
@@ -48,7 +48,7 @@ class TemplatesTask < TemplateRenderer
   end
 
   def compile_article(path, filename)
-    static_html, fragment_html = render_article path, filename
+    static_html, fragment_html = TemplateRenderer.render_article path, filename
 
     build_dir = article_build_dir path, filename[0..-4]
 
@@ -67,7 +67,7 @@ class TemplatesTask < TemplateRenderer
   end
 
   def compile_page(path, filename)
-    static_html, fragment_html = render_page path, filename
+    static_html, fragment_html = TemplateRenderer.render_page path, filename
 
     # Special case for homepage
     if filename == 'index.html'

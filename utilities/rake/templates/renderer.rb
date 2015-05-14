@@ -4,14 +4,8 @@ require 'htmlbeautifier'
 
 require_relative '../../common'
 
-class TemplateRenderer
-  #
-  # Global variables available to templates - blog helpers and so forth
-  #
-
-  def initialize
-    @template_globals = { 'blog_articles' => [] }
-  end
+module TemplateRenderer
+  @template_globals = { 'blog_articles' => [] }
 
   #
   # Basic templates
@@ -21,7 +15,7 @@ class TemplateRenderer
 
   PAGE_FRAGMENT = <<-END
     <article id="{{ pageid }}" class="current" data-title="{{ attrs.page_title }}">
-      {== content ==}
+      {{ content }}
     </article>
   END
 
@@ -43,7 +37,7 @@ class TemplateRenderer
   # Rendering
   #
 
-  def render_page(base_path, page_path)
+  def self.render_page(base_path, page_path)
     pageid = Common.pageid_for page_path
     path = File.join base_path, page_path
 
@@ -51,7 +45,7 @@ class TemplateRenderer
     attrs['pageid'] = pageid
     if attrs['template']
       File.open "#{TEMPLATES_DIR}/#{attrs['template']}.html", 'r' do |f|
-        content = f.read.sub /\{==\s*content\s*==\}/, content
+        content = f.read.sub /\{\{\s*content\s*\}\}/, content
       end
     end
 
@@ -61,7 +55,7 @@ class TemplateRenderer
     return static, fragment
   end
 
-  def render_article(base_path, article_path)
+  def self.render_article(base_path, article_path)
     pageid = Common.pageid_for article_path
     path = File.join base_path, article_path
 
@@ -87,7 +81,7 @@ class TemplateRenderer
 
   private
 
-  def read_file(path)
+  def self.read_file(path)
     preface = ''
     content = ''
 
@@ -110,19 +104,19 @@ class TemplateRenderer
     return content, attrs
   end
 
-  def render(pageid, content, attrs, template)
-    template = Liquid::Template.parse template.sub('{== content ==}', content)
-    return HtmlBeautifier.beautify template.render(
+  def self.render(pageid, content, attrs, template)
+    template = Liquid::Template.parse template.sub('{{ content }}', content)
+    HtmlBeautifier.beautify template.render(
       'pageid' => pageid, 'attrs' => attrs, 'global' => @template_globals
     )
   end
 
-  def article_date(path)
+  def self.article_date(path)
     parts = path.split '_'
-    return Date.new parts[0].to_i, parts[1].to_i, parts[2].to_i
+    Date.new parts[0].to_i, parts[1].to_i, parts[2].to_i
   end
 
-  def add_image_captions!(html)
+  def self.add_image_captions!(html)
     html.gsub! /(<img src=".+" alt="(.+)" \/>)/, '\1<span class="caption">\2</span>'
   end
 end
