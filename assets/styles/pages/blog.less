@@ -1,22 +1,29 @@
 article#blog {
   > section.page {
-    width: 50rem;
-    padding-left: 50%;
-    margin-left: -25rem;
+    max-width: 45rem;
 
     ul.articles {
+      padding-left: 0;
+
       > li {
-        .flex-display();
-        .flex-direction(row);
-        .align-items(center);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 1.5rem;
+        @media screen and (min-width: @breakpoint-small) {
+          flex-direction: row;
+        }
 
         > a.image {
+          display: none;
           width: 7rem;
           height: 7rem;
           background: #1b181b;
           border: 3px solid #bb8a35;
           border-radius: 4rem;
+          @media screen and (min-width: @breakpoint-small) {
+            display: inline-block;
+          }
 
           background-repeat: no-repeat;
           background-position: center;
@@ -24,30 +31,52 @@ article#blog {
         }
 
         > .description {
-          .flex(1);
-          margin-left: 1.5rem;
+          flex: 1;
+          @media screen and (min-width: @breakpoint-small) {
+            margin-left: 1.5rem;
+          }
 
-          h1 {
-            text-align: left;
+          h2, p {
+            text-align: center;
+            @media screen and (min-width: @breakpoint-small) {
+              text-align: left;
+            }
+          }
+
+          h2 {
+            font-size: 2.5rem;
 
             a {
-              color: #1b181b;
+              color: @black;
               text-decoration: none;
             }
           }
 
           p.subtitle {
+            margin-bottom: 0;
             background: linear-gradient(to bottom, transparent 0%, #f7f3f7 20%);
           }
         }
 
         > .info {
-          margin-right: 1.25rem;
+          margin-top: 0.5rem;
+          padding-top: 0.5rem;
+          border-top: 2px solid #bb8a35;
+          @media screen and (min-width: @breakpoint-small) {
+            margin-top: 0;
+            margin-right: 1.25rem;
+            border-top: none;
+          }
 
           p {
-            margin-bottom: 0.5rem;
+            display: inline-block;
+            margin: 0 0 0.5rem 0.5rem;
             text-align: right;
             color: #776977;
+            @media screen and (min-width: @breakpoint-small) {
+              display: block;
+              margin-right: 0;
+            }
 
             &.category > * {
               display: inline-block;

@@ -15,6 +15,8 @@
 @base-font-family: Lato, sans-serif;
 @headings-font-family: Blackjack, sans-serif;
 
+@breakpoint-small: 550px;
+
 @import 'pages/index.less';
 @import 'pages/about.less';
 @import 'pages/projects.less';
@@ -28,7 +30,10 @@ html, body {
 
 html {
   height: 100%;
-  font-size: 18px;
+  font-size: 16px;
+  @media screen and (min-width: @breakpoint-small) {
+    font-size: 18px;
+  }
 }
 
 body {
@@ -68,7 +73,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem 0;
 }
 
 h3 {
@@ -123,6 +129,13 @@ article {
 
   background: #f7f3f7;
 
+  > section.page {
+    width: 100%;
+    margin: 1rem auto 0 auto;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+  }
+
   > .spacer {
     .flex(1);
   }
@@ -176,9 +189,12 @@ article {
 
 nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   padding: 0;
+  @media screen and (min-width: @breakpoint-small) {
+    flex-direction: row;
+  }
 
   > a {
     display: inline-block;
@@ -189,7 +205,6 @@ nav {
       padding: 1rem;
       width: 2rem;
       height: 2rem;
-
       background: @black-bg;
       background-position: center;
       border-radius: 4rem;
@@ -208,9 +223,12 @@ nav {
 
       span {
         position: relative;
-        top: 0.4rem;
+        top: 0.5rem;
         color: @grey;
         text-decoration: none;
+        @media screen and (min-width: @breakpoint-small) {
+          top: 0.4rem;
+        }
       }
     }
 
@@ -228,10 +246,12 @@ nav {
     text-transform: lowercase;
     text-decoration: none;
 
-    &:before {
-      padding-right: 0.75rem;
-      content: '\203A';
-      text-decoration: none;
+    @media screen and (min-width: @breakpoint-small) {
+      &:before {
+        padding-right: 0.75rem;
+        content: '\203A';
+        text-decoration: none;
+      }
     }
   }
 
@@ -240,13 +260,16 @@ nav {
     text-align: right;
 
     > * {
-      margin-right: 1.5rem;
+      display: block;
+      @media screen and (min-width: @breakpoint-small) {
+        margin-right: 1.5rem;
+      }
     }
 
     > span {
       display: inline-block;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
       padding: 0;
       color: @grey;
     }
@@ -262,7 +285,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: @breakpoint-small) {
   article > footer {
     > span, > ul {
       display: inline;
