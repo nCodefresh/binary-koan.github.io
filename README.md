@@ -19,3 +19,7 @@ Put these after the rake command (eg. `rake default env=production`)
   default - it will create source maps and won't minify output.
   `production` won't create source maps and will minify everything
 - `out=<directory>` sets the output directory (default './build')
+
+## License
+I am offering this to you under the MIT license in good faith - please
+don't use this for anything nefarious or defamatory. Anyway, enjoy :)
