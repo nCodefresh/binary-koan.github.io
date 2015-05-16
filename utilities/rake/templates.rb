@@ -7,7 +7,7 @@ class TemplatesTask
 
   def build_articles
     path = $config[:articles_path]
-    Dir.entries(path).each do |filename|
+    Dir.entries(path).sort.each do |filename|
       if File.directory?(File.join(path, filename)) and not filename =~ /\.\.?/
         copy_article_assets path, filename
       elsif filename.end_with?('.md')
