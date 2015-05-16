@@ -1,8 +1,6 @@
 /* Background pattern from subtlepatterns.com (Symphony by Irfan iLias - modified) */
 @import 'reset.less';
 
-@import 'mixins/flexbox.less';
-
 @black: #1b181b;
 @grey: #776977;
 @grey-light: #ab9bab;
@@ -124,8 +122,9 @@ a {
 }
 
 article {
-  .flex-display;
-  .flex-direction(column);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   background: #f7f3f7;
 
@@ -137,11 +136,11 @@ article {
   }
 
   > .spacer {
-    .flex(1);
+    flex: 1;
   }
 
   > footer {
-    .flex(0);
+    flex: 0;
     padding: 1.5rem 2rem 2rem 2rem;
     text-align: center;
 
