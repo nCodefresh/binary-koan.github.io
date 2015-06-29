@@ -31,11 +31,11 @@ watcher = WatcherTask.new
 # Tasks
 #
 
-task :default => %w( check_deps clean templates assets )
+task :default => %w( clean templates assets )
 task :watch => %w( default watcher )
 task :server => %w( watch webrick )
 
-task :check_deps do
+task :check do
   puts 'Checking dependencies ...'
 
   npm.check_for_npm

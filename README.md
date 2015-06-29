@@ -5,7 +5,8 @@ written in Ruby.
 ## Requirements
 - Ruby 2.0+ and `bundler` gem
 - `less`, `less-plugin-clean-css`, `less-plugin-autoprefix` and `webpack`
-  installed using npm
+  installed using npm. You can run `rake check` to make sure they're available
+  to the script
 
 ## Tasks
 - `rake default` builds the website
