@@ -21,6 +21,15 @@
 @import 'pages/blog.less';
 @import 'pages/blogpost.less';
 
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -124,7 +133,7 @@ a {
 article {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100%\0;
   overflow-y: auto;
 
   background: #f7f3f7;
