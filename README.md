@@ -4,6 +4,7 @@ written in Ruby.
 
 ## Requirements
 - Ruby 2.0+ and `bundler` gem
+- RubyGems dependencies installed with `bundle install`
 - `less`, `less-plugin-clean-css`, `less-plugin-autoprefix` and `webpack`
   installed using npm. You can run `rake check` to make sure they're available
   to the script
@@ -22,5 +23,5 @@ Put these after the rake command (eg. `rake default env=production`)
 - `out=<directory>` sets the output directory (default './build')
 
 ## License
-I am offering this to you under the MIT license in good faith - please
-don't use this for anything nefarious or defamatory. Anyway, enjoy :)
+I am offering both my code and writing to you under the MIT license in good
+faith - enjoy :)
