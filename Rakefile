@@ -21,11 +21,13 @@ require_relative 'utilities/rake/npm'
 require_relative 'utilities/rake/templates'
 require_relative 'utilities/rake/assets'
 require_relative 'utilities/rake/watch'
+require_relative 'utilities/rake/generate'
 
 npm = NpmTask.new
 template_builder = TemplatesTask.new
 asset_builder = AssetsTask.new
 watcher = WatcherTask.new
+generate = GeneratorTask.new
 
 #
 # Tasks
@@ -86,4 +88,12 @@ end
 task :webrick do
   puts 'Starting server on port 8000.'
   WEBrick::HTTPServer.new(Port: 8000, DocumentRoot: File.join(Dir.pwd, $config[:build_path])).start
+end
+
+# Generators
+
+namespace :g do
+  task :article do
+    generate.article ENV['title'], ENV['date'] || Date.today
+  end
 end
