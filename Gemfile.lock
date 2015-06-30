@@ -13,6 +13,7 @@ GEM
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    mini_magick (4.2.7)
     rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
@@ -29,4 +30,5 @@ DEPENDENCIES
   kramdown (~> 1.5)
   liquid (~> 3.0)
   listen (~> 2.7)
+  mini_magick (~> 4.2)
   rake

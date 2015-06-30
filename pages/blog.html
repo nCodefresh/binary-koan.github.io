@@ -6,7 +6,8 @@ template: subpage
 <ul class="articles">
 {% for article in global.blog_articles %}
   <li>
-    <a class="image" href="{{ article.url }}" style="background-image: url({{ article.url }}/{{ article.cover }})"></a>
+    <a class="image" role="presentation" href="{{ article.url }}"
+       style="background-image: url({{ article.url }}/{{ article.cover_thumb }})"></a>
     <div class="description">
       <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
       <p class="subtitle">{{ article.subtitle }}</p>

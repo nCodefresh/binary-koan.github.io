@@ -1,6 +1,7 @@
 require 'liquid'
 require 'kramdown'
 require 'htmlbeautifier'
+require 'mini_magick'
 
 require_relative '../../common'
 
@@ -68,6 +69,7 @@ module TemplateRenderer
     md, attrs = read_file path
     attrs['date'] = article_date article_path
     attrs['pageid'] = pageid
+    attrs['cover_thumb'] = create_cover_thumb path[0..-4], attrs['cover']
     content = Kramdown::Document.new(md).to_html
     add_image_captions! content
     File.open "#{TEMPLATES_DIR}/blogpost.html", 'r' do |f|
@@ -127,5 +129,31 @@ module TemplateRenderer
       '<a href="\1" data-featherlight="image">
         <img src="\1" alt="\2"><span class="caption">\2</span>
       </a>'
+  end
+
+  def self.create_cover_thumb(path, cover)
+    file_path = path + '/' + cover
+    unless File.file? file_path
+      puts "WARNING: Couldn't find cover image at #{filename}"
+      return
+    end
+    thumb_name = File.basename(cover, File.extname(cover)) + '_thumb' + File.extname(cover)
+    thumb_path = path + '/' + thumb_name
+    if File.file?(thumb_path) and File.mtime(thumb_path) > File.mtime(file_path)
+      # No need to generate a new thumbnail
+      return thumb_name
+    end
+
+    MiniMagick.with_cli(:graphicsmagick) do
+      MiniMagick::Tool::Convert.new do |convert|
+        convert << file_path
+        convert.resize 'x256'
+        convert.gravity 'Center'
+        convert.profile + '*'
+        convert.crop '256x256+0+0'
+        convert << thumb_path
+      end
+    end
+    thumb_name
   end
 end
