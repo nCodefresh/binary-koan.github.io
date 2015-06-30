@@ -1,4 +1,5 @@
-require('./libraries/svg')
+require('./libraries/svg');
+require('./libraries/featherlight');
 
 var pageSpecificFiles = [
   'homepage'

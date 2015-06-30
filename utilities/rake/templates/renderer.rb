@@ -29,7 +29,9 @@ module TemplateRenderer
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' type='text/css' href='/fonts/blackjack.css' />
         <link rel='stylesheet' type='text/css' href='/styles/main.css' />
-        <script type='text/javascript' src='/scripts/main.js'></script>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src='/scripts/main.js'></script>
       </head>
       <body>
         #{PAGE_FRAGMENT}
@@ -121,6 +123,9 @@ module TemplateRenderer
   end
 
   def self.add_image_captions!(html)
-    html.gsub! /(<img src=".+" alt="(.+)" \/>)/, '\1<span class="caption">\2</span>'
+    html.gsub! /<img src="(.+)" alt="(.+)" \/>/,
+      '<a href="\1" data-featherlight="image">
+        <img src="\1" alt="\2"><span class="caption">\2</span>
+      </a>'
   end
 end
