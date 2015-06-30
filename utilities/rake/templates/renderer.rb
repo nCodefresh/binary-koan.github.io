@@ -134,7 +134,7 @@ module TemplateRenderer
   def self.create_cover_thumb(path, cover)
     file_path = path + '/' + cover
     unless File.file? file_path
-      puts "WARNING: Couldn't find cover image at #{filename}"
+      puts "WARNING: Couldn't find cover image at #{file_path}"
       return
     end
     thumb_name = File.basename(cover, File.extname(cover)) + '_thumb' + File.extname(cover)

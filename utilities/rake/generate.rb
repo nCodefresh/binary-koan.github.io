@@ -10,7 +10,6 @@ subtitle:
 category:
 cover: cover.jpeg
 ---
-
 EOF
   end
 end
