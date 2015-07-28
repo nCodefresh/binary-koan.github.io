@@ -1,0 +1,969 @@
+/* Background pattern from subtlepatterns.com (Symphony by Irfan iLias - modified) */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px;
+}
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.3.2 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2015, Noël Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
+@media all {
+  .featherlight {
+    display: none;
+    /* dimensions: spanning the background from edge to edge */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483647;
+    /* z-index needs to be >= elements on the site. */
+    /* position: centering content */
+    text-align: center;
+    /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+    white-space: nowrap;
+    /* styling */
+    cursor: pointer;
+    background: #333;
+    /* IE8 "hack" for nested featherlights */
+    background: rgba(0, 0, 0, 0);
+  }
+  /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+  .featherlight:last-of-type {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .featherlight:before {
+    /* position: trick to center content vertically */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+  .featherlight .featherlight-content {
+    /* make content container for positioned elements (close button) */
+    position: relative;
+    /* position: centering vertical and horizontal */
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    /* dimensions: cut off images */
+    overflow: auto;
+    padding: 25px 25px 0;
+    border-bottom: 25px solid transparent;
+    /* dimensions: handling small or empty content */
+    min-width: 30%;
+    /* dimensions: handling large content */
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 95%;
+    border-radius: 5px;
+    /* styling */
+    background: #fff;
+    cursor: auto;
+    /* reset white-space wrapping */
+    white-space: normal;
+  }
+  /* contains the content */
+  .featherlight .featherlight-inner {
+    /* make sure its visible */
+    display: block;
+  }
+  .featherlight .featherlight-close-icon {
+    /* position: centering vertical and horizontal */
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    /* dimensions: 25px x 25px */
+    line-height: 25px;
+    width: 25px;
+    /* styling */
+    cursor: pointer;
+    text-align: center;
+    font: Arial, sans-serif;
+    background: #fff;
+    /* Set the background in case it overlaps the content */
+    border-radius: 5px;
+    color: #000;
+  }
+  .featherlight .featherlight-image {
+    /* styling */
+    width: 100%;
+  }
+  .featherlight-iframe .featherlight-content {
+    /* removed the border for image croping since iframe is edge to edge */
+    border-bottom: 0;
+    padding: 0;
+  }
+  .featherlight iframe {
+    /* styling */
+    border: none;
+  }
+}
+/* handling phones and small screens */
+@media only screen and (max-width: 1024px) {
+  .featherlight .featherlight-content {
+    /* dimensions: maximize lightbox with for small screens */
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 98%;
+    padding: 10px 10px 0;
+    border-bottom: 10px solid transparent;
+  }
+}
+article#index {
+  background: #1b181b url(/index-background.png);
+}
+article#index > svg {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  width: 480px\0;
+  height: 480px\0;
+}
+article#index > svg a circle {
+  transition: all 0.2s ease-in-out;
+}
+article#index > svg a:hover circle {
+  fill: white;
+}
+article#index > footer a:hover {
+  color: #a99da9;
+}
+article#about > section.page {
+  max-width: 30rem;
+}
+article#about > section.page > p {
+  text-align: center;
+}
+article#about > section.page > img {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+article#projects > section.page {
+  max-width: 40rem;
+}
+article#projects > section.page > h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+article#projects > section.page > ul {
+  text-align: center;
+  margin: 0 0 3rem 0;
+  padding: 0;
+}
+article#projects > section.page > ul li {
+  display: inline-block;
+  background: #1b181b url(/index-background.png);
+  width: 11rem;
+  vertical-align: top;
+  margin: 0 0 0.5rem 0.5rem;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+article#projects > section.page > ul li:last {
+  margin-right: 0;
+}
+article#projects > section.page > ul li img {
+  width: 100%;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  box-sizing: border-box;
+}
+article#projects > section.page > ul li,
+article#projects > section.page > ul a {
+  color: #ab9bab;
+}
+article#blog > section.page {
+  max-width: 45rem;
+}
+article#blog > section.page ul.articles {
+  padding-left: 0;
+}
+article#blog > section.page ul.articles > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 550px) {
+  article#blog > section.page ul.articles > li {
+    flex-direction: row;
+  }
+}
+article#blog > section.page ul.articles > li > a.image {
+  display: none;
+  width: 7rem;
+  height: 7rem;
+  background: #1b181b;
+  border: 3px solid #bb8a35;
+  border-radius: 4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 550px) {
+  article#blog > section.page ul.articles > li > a.image {
+    display: inline-block;
+  }
+}
+article#blog > section.page ul.articles > li > .description {
+  flex: 1;
+}
+@media screen and (min-width: 550px) {
+  article#blog > section.page ul.articles > li > .description {
+    margin-left: 1.5rem;
+  }
+}
+article#blog > section.page ul.articles > li > .description h2,
+article#blog > section.page ul.articles > li > .description p {
+  text-align: center;
+}
+@media screen and (min-width: 550px) {
+  article#blog > section.page ul.articles > li > .description h2,
+  article#blog > section.page ul.articles > li > .description p {
+    text-align: left;
+  }
+}
+article#blog > section.page ul.articles > li > .description h2 {
+  font-size: 2.5rem;
+}
+article#blog > section.page ul.articles > li > .description h2 a {
+  color: #1b181b;
+  text-decoration: none;
+}
+article#blog > section.page ul.articles > li > .description p.subtitle {
+  margin-bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, #f7f3f7 20%);
+}
+article#blog > section.page ul.articles > li > .info {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 2px solid #bb8a35;
+}
+@media screen and (min-width: 550px) {
+  article#blog > section.page ul.articles > li > .info {
+    margin-top: 0;
+    margin-right: 1.25rem;
+    border-top: none;
+  }
+}
+article#blog > section.page ul.articles > li > .info p {
+  display: inline-block;
+  margin: 0 0 0.5rem 0.5rem;
+  text-align: right;
+  color: #776977;
+}
+@media screen and (min-width: 550px) {
+  article#blog > section.page ul.articles > li > .info p {
+    display: block;
+    margin-right: 0;
+  }
+}
+article#blog > section.page ul.articles > li > .info p.category > * {
+  display: inline-block;
+  border: 1px solid #bb8a35;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #bb8a35;
+  transition: all 0.2s ease-in-out;
+}
+section.blogpost.header {
+  position: relative;
+  margin-bottom: 0.5rem;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: center, center !important;
+  background-size: auto, cover !important;
+}
+section.blogpost.header nav > a {
+  color: white;
+}
+section.blogpost.header nav > a > span {
+  color: white;
+}
+@media screen and (min-width: 550px) {
+  section.blogpost.header nav > a:last-of-type:after {
+    padding-left: 0.75rem;
+    content: '\203A';
+    text-decoration: none;
+  }
+}
+section.blogpost.header nav > a:first-child {
+  background: #ab9bab url(/subpage-background.png);
+}
+section.blogpost.header nav > a:first-child:after {
+  display: none;
+}
+section.blogpost.header nav > a:first-child > span {
+  color: #776977;
+}
+section.blogpost.header nav > .controls {
+  margin-top: 5rem;
+}
+@media screen and (min-width: 550px) {
+  section.blogpost.header nav > .controls {
+    margin-top: inherit;
+  }
+}
+section.blogpost.header nav > .controls > span {
+  color: #ab9bab;
+}
+section.blogpost.header h1 {
+  margin-top: 0;
+  padding: 0 0.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+@media screen and (min-width: 550px) {
+  section.blogpost.header h1 {
+    margin-top: 20rem;
+    font-size: 3.5rem;
+  }
+}
+section.blogpost.header p.subtitle {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+  font-size: 1.25rem;
+  color: #ab9bab;
+  text-align: center;
+}
+@media screen and (min-width: 550px) {
+  section.blogpost.header p.subtitle {
+    margin-top: inherit;
+    font-size: 1.5rem;
+  }
+}
+section.blogpost.page {
+  max-width: 45rem;
+}
+section.blogpost.page a[data-featherlight="image"] {
+  text-decoration: none;
+}
+section.blogpost.page span.caption {
+  display: block;
+  margin-top: 0.25rem;
+  color: #776977;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  font-size: 16px;
+}
+@media screen and (min-width: 550px) {
+  html {
+    font-size: 18px;
+  }
+}
+body {
+  min-height: 100%;
+}
+body,
+button,
+input,
+textarea {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #1b181b;
+}
+body > article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  display: none;
+}
+body > article.current {
+  display: flex;
+}
+h1,
+h2 {
+  font-family: Blackjack, sans-serif;
+  font-weight: normal;
+  line-height: 1;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0 0.5rem 0;
+}
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem 0;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+p {
+  margin: 0.5rem 0 1rem 0;
+  line-height: 1.4;
+}
+p.subtitle {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: -0.6rem;
+  color: #776977;
+}
+hr {
+  height: 1px;
+  max-width: 10rem;
+  margin: 1.5rem auto;
+  border: none;
+  background: linear-gradient(to left, transparent 0%, #ab9bab 50%, transparent 100%);
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 0.25rem;
+}
+a {
+  color: #776977;
+}
+a:hover {
+  color: #413941;
+}
+a:visited {
+  color: #776977;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  height: 100%\0;
+  overflow-y: auto;
+  background: #f7f3f7;
+}
+article > section.page {
+  width: 100%;
+  margin: 1rem auto 0 auto;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+article > .spacer {
+  flex: 1;
+}
+article > footer {
+  padding: 1.5rem 2rem 2rem 2rem;
+  text-align: center;
+  color: #776977;
+}
+article > footer hr {
+  margin-top: 0;
+}
+article > footer a {
+  color: #776977;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+article > footer a:hover {
+  color: #413941;
+}
+article > footer > span {
+  display: block;
+}
+article > footer > .separator {
+  display: none;
+}
+article > footer > ul {
+  display: block;
+  margin: 0.5em 0 0 0;
+  padding: 0;
+}
+article > footer > ul > li {
+  display: inline-block;
+  text-transform: lowercase;
+  margin-left: 0.5em;
+}
+article > footer > ul > li:first-child {
+  margin-left: 0;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+@media screen and (min-width: 550px) {
+  nav {
+    flex-direction: row;
+  }
+}
+nav > a {
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+nav > a:first-child {
+  margin: 1rem;
+  padding: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background: #1b181b url(/index-background.png);
+  background-position: center;
+  border-radius: 4rem;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+nav > a:first-child:hover {
+  margin: 0.75rem;
+  padding: 1.25rem;
+}
+nav > a:first-child:before {
+  display: none;
+}
+nav > a:first-child span {
+  position: relative;
+  top: 0.5rem;
+  color: #776977;
+  text-decoration: none;
+}
+@media screen and (min-width: 550px) {
+  nav > a:first-child span {
+    top: 0.4rem;
+  }
+}
+nav > a span {
+  color: #1b181b;
+  text-decoration: underline;
+}
+nav > h1,
+nav > a {
+  display: inline-block;
+  margin: 0;
+  font-family: Blackjack, sans-serif;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+@media screen and (min-width: 550px) {
+  nav > h1:before,
+  nav > a:before {
+    padding-right: 0.75rem;
+    content: '\203A';
+    text-decoration: none;
+  }
+}
+nav > .controls {
+  flex: 1;
+  text-align: right;
+}
+nav > .controls > * {
+  display: block;
+}
+@media screen and (min-width: 550px) {
+  nav > .controls > * {
+    margin-right: 1.5rem;
+  }
+}
+nav > .controls > span {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  color: #776977;
+}
+nav > .controls > button {
+  border: none;
+  border-radius: 3px;
+  margin: 1.5rem 1.5rem 1.5rem 1rem;
+  padding: 0.5rem;
+  background: #1b181b;
+  color: #f7f7f7;
+}
+@media screen and (min-width: 550px) {
+  article > footer > span,
+  article > footer > ul {
+    display: inline;
+  }
+  article > footer > .separator {
+    display: inline-block;
+    height: 25px;
+    width: 16px;
+    margin: 0 0.5em -5px 0.5em;
+    background: url(/footer-design.png);
+  }
+}

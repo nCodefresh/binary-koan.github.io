@@ -1,0 +1,30 @@
+article#index {
+  @text-color: #ab9bab;
+
+  background: @black-bg;
+
+  > svg {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+
+    //IE doesn't auto-size SVG
+    width: 480px\0;
+    height: 480px\0;
+
+    a circle {
+      transition: all 0.2s ease-in-out;
+    }
+
+    a:hover circle {
+      fill: white;
+    }
+  }
+
+  > footer a:hover {
+    color: lighten(@grey, 20%);
+  }
+}
