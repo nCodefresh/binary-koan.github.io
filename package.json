@@ -1,0 +1,54 @@
+{
+  "name": "mingard.io",
+  "version": "1.0.0",
+  "description": "Personal website of Jono Mingard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binary-koan/mingard.io.git"
+  },
+  "author": "Jono Mingard <reason.koan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binary-koan/mingard.io/issues"
+  },
+  "homepage": "https://github.com/binary-koan/mingard.io#readme",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "coffee-script": "^1.9.3",
+    "express": "^4.13.0",
+    "file-utils": "^0.2.2",
+    "gray-matter": "^2.0.0",
+    "less": "^2.5.1",
+    "marked": "^0.3.3",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "node-static": "^0.7.6",
+    "parallelshell": "^1.2.0",
+    "rimraf": "^2.4.1",
+    "swig": "^1.4.2",
+    "watch": "^0.16.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf build && rimraf npm-debug.log* && rimraf scripts/log/*",
+    "public": "ncp assets/public build",
+    "public:watch": "watch 'npm run public' assets/public > scripts/log/public.log",
+    "js": "mkdirp build/scripts && browserify assets/scripts/main.js -o build/scripts/main.js",
+    "js:watch": "watch 'npm run js -- -d' assets/scripts > scripts/log/js.log",
+    "js:build": "npm run js",
+    "css": "mkdirp build/styles && lessc assets/styles/main.less build/styles/main.css",
+    "css:watch": "watch 'npm run css -- --source-map' assets/styles > scripts/log/css.log",
+    "css:build": "npm run css -- --clean-css",
+    "templates:build": "coffee scripts/templates.coffee",
+    "templates:watch": "watch 'npm run templates:build' articles pages templates > scripts/log/templates.log",
+    "watch": "parallelshell 'npm run js:watch' 'npm run css:watch' 'npm run templates:watch' 'npm run public:watch' > scripts/log/watcher.log",
+    "start": "parallelshell 'npm run watch' 'static build > scripts/log/static.log'",
+    "prestart": "npm run clean",
+    "build": "npm run js:build && npm run css:build && npm run templates:build",
+    "prebuild": "npm run clean"
+  },
+  "dependencies": {
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
