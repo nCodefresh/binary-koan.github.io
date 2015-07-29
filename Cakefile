@@ -19,7 +19,7 @@ tasks
 
   build: ['clean', 'public', 'js', 'cssmin', 'templates']
 
-  pushghpages: '$ git subtree push --prefix build origin gh-pages'
+  pushghpages: '$ git subtree push --prefix build origin master'
   deploy: ['build', 'pushghpages']
 
 watch
