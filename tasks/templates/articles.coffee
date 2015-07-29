@@ -23,9 +23,12 @@ articleDate = (file) ->
 outputDir = (file) ->
   'build/blog/' + articlePath(file)
 
+addCaptions = (content) ->
+  content.replace /<img src="[^"]+" alt="([^"]+)">/g, '$&<span class="caption">$1</span>'
+
 articleData = (file, content) ->
   article = matter content
-  article.data.content = marked article.content
+  article.data.content = addCaptions marked(article.content)
   article.data.outputDir = outputDir file.replace(/\.md$/, '')
   article.data.url = 'blog/' + articlePath(file.replace(/\.md$/, ''))
   article.data.date = articleDate file
