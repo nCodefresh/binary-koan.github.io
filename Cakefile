@@ -17,7 +17,10 @@ tasks
 
   templates: templates
 
-  build: ['public', 'js', 'cssmin', 'templates']
+  build: ['clean', 'public', 'js', 'cssmin', 'templates']
+
+  pushghpages: '$ git subtree push --prefix build origin gh-pages'
+  deploy: ['build', 'pushghpages']
 
 watch
   'assets/public': 'public'

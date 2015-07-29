@@ -17,7 +17,10 @@ addArrayTask = (name, tasks) ->
       invoke(t)
 
 addCommandTask = (name, content) ->
-  content = process.cwd() + '/node_modules/.bin/' + content
+  if /^\$ /.test content
+    content = content.slice 2
+  else
+    content = process.cwd() + '/node_modules/.bin/' + content
   task name, ->
     result = execSync content
     if result.error
